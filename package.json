@@ -1,9 +1,9 @@
 {
-	"name": "twikoo-zeabur-serverless",
-	"scripts": {
-		"build": "echo \"No need to build, files already in .zeabur/output/functions\""
-	},
-	"engines": {
-		"node": "20"
-	}
+  "name": "twikoo-zeabur-serverless",
+  "scripts": {
+    "build": "cd .zeabur/output/functions/index.func && yarn install"
+  },
+  "engines": {
+    "node": "20"
+  }
 }
